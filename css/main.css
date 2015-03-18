@@ -1,0 +1,69 @@
+/*Main Body*/
+.container{
+width: 90%;
+height:100%;
+float:none;
+position: relative;
+padding-left:275px;
+}
+
+ #p_textarea {
+ width: 100%;
+ height: 100px;
+ }
+
+/*Navigations Bar*/
+nav{
+float:right;
+width: 275px;
+position:fixed;
+z-index:9999;
+}
+
+#control_panel{
+height:100%;
+overflow-y:scroll;
+}
+ 
+#tf_header{
+	clear:before;
+}
+
+.moreenabled {
+float:left;
+}
+
+.settingsinner{
+display:none;
+width:75%;
+}
+
+hr {
+width:85%;
+}
+
+.moreicon {
+float:left;
+clear:after;
+vertical-align:-30px;
+}
+
+
+/*MISC*/
+.clearfix:after {
+   content: " "; 
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+#cp_show {
+display:none;
+}
+
+/*Footer*/
+footer {
+	margin-left:auto;	
+	margin-right:auto;	
+}
